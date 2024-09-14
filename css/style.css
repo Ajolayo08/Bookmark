@@ -1,0 +1,1101 @@
+* {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+
+html,body{
+    /* overflow-x: hidden; */
+}
+
+button{
+    cursor: pointer;
+}
+
+header{
+   padding: 3rem 7rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.togglers{
+    display: none;
+}
+
+.sub-header ul{
+    display: flex;
+    align-items: 
+    center;
+    gap: 50px;
+    list-style: none;
+}
+
+.sub-header ul a{
+    text-decoration: none;
+    color: #4F5352;
+    font-size: 12px;
+    font-weight: 520;
+    letter-spacing: 1px;
+}
+
+.sub-header button{
+    color: white;
+    padding: 9px 30px;
+    background-color: #FA5757;
+    border-radius: 5px;
+    border: 2px solid #FA5757;
+    font-weight: 750;
+}
+
+.sub-header button:hover{
+    background-color: #ffff;
+    border: 2px solid #FA5757;
+    color: #FA5757;
+}
+
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 7rem;
+    align-items: center;
+}
+
+.main-text h4{
+    font-size: 2.9em;
+    width: 80%;
+    color: #252B46;
+}
+
+.main-text p{
+    font-size: larger;
+    margin: 30px 0;
+    color: #9194B0;
+    width: 80%;
+}
+
+.main-img{
+   width: 40%;
+}
+
+.main-but1{
+    padding: 15px 30px;
+    background-color: #5368DF;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #5368DF;
+    font-weight: 700;
+}
+
+.main-but1:hover{
+    background-color: #ffff;
+    border: 2px solid #5368DF;
+    color: #5368DF;
+}
+
+.main-but2{
+    padding: 15px 30px;
+    background-color: #ffff;
+    color: #5368DF;
+    border-radius: 5px;
+    border: 2px solid #ffff;
+    font-weight: 700;
+    box-shadow: 0 0 5px #b1b1b1;
+}
+
+.main-but2:hover{ 
+    border: 2px solid #5368DF;
+}
+
+.features{
+    margin-top: 100px;
+}
+
+.features .h21{
+    font-size: 2em;
+    text-align: center;
+    color: #252B46;
+}
+
+.features .h22{
+    font-size: 2em;
+    text-align: center;
+    margin-left: -8rem;
+    color: #252B46;
+}
+
+.tab h2{
+    font-size: 1.8em;
+}
+
+.features p{
+    color: #9194B0;
+    line-height: 1.5;
+    font-size: larger;
+    text-align: center;
+    width: 40%;
+    margin-left: 24rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.tab-contents{
+    display: flex;
+    padding: 4rem;
+    margin-top: -70px;
+}
+.tab-contents img{
+    width: 40%;
+}
+
+.tab-info{
+    position: relative;
+    top: 5rem;
+    text-align: right;
+}
+
+.tab-info p{
+    position: relative;
+    right: 20rem;
+    width: 80%;
+    text-align: left;
+    line-height: 1.5;
+    color: #9194B0;
+}
+
+.tab-info button{
+    padding: 15px 30px;
+    background-color: #5368DF;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #5368DF;
+    font-weight: 700;
+    position: relative;
+    right: 33.8rem;
+    bottom: 20px;
+}
+
+
+.tab-info button:hover{
+    background-color: #ffff;
+    border: 2px solid #5368DF;
+    color: #5368DF;
+}
+
+.extention-header h2{
+    text-align: center;
+    font-size: 1.8em;
+    color: #242A44;
+}
+.extention-header p{
+    text-align: center;
+    font-size: larger;
+    width: 45%;
+    margin-left: 23rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    color: #9194B0;
+}
+
+.extention-body{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 90%;
+    margin: 0 auto 48px;
+    padding: 0.5rem 1rem;
+}
+
+.extention-body img{
+    margin-bottom: 2rem;
+}
+
+.extention-body1,.extention-body2,.extention-body3{
+    box-shadow: 0px 15px 11px 1px #EBEBEB;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    max-width: 300px;
+    padding: 2rem 3rem 1rem;
+    margin: 0 auto;
+    border-radius: 14px;
+}
+
+.extention-body2{
+   position: relative;
+   top: 2rem;
+}
+
+.extention-body3{
+    position: relative;
+    top: 4rem;
+}
+
+.extention-body1 h3,.extention-body2 h3,.extention-body1 h3{
+    width: 120%;
+    text-align: center;
+    color: #242A44;
+}
+
+.extention-body1 p,.extention-body2 p,.extention-body3 p{
+    width: 120%;
+    margin-top: 15px;
+    text-align: center;
+    color: #9194B0;
+    font-size: small;
+}
+
+.dots{
+    position: relative;
+    top: 58px;
+}
+
+.extention-body1 button,.extention-body2 button,.extention-body3 button{
+    padding: 12px 15px;
+    margin-top: 3rem;
+    background-color: #5368DF;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #5368DF;
+    font-weight: 800;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.extention-body1 button:hover,.extention-body2 button:hover,.extention-body3 button:hover{
+    background-color: #ffff;
+    border: 2px solid #5368DF;
+    color: #5368DF;
+}
+
+#Questions h2{
+    text-align: center;
+    font-size: 1.8em;
+    color: #242A44;
+    margin-top: 13rem;
+}
+
+#Questions .header-p{
+    text-align: center;
+    font-size: 1.2em;
+    color: #9194B0;
+    width: 40%;
+    margin-left: 25rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#Questions ul{
+    list-style: none;
+}
+
+hr{
+    width: 33.5em;
+    position: relative;
+    left: 25rem;
+    margin-bottom: 2rem;
+}
+
+.faq{
+    font-size: 0.9em;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.faq-headers1,.faq-headers2,.faq-headers3,.faq-headers4{
+    display: flex;
+    gap: 16rem;
+}
+
+.bookmark,.browser,.mobile-app,.chromium-browsers{
+    /* box-shadow: 2px 2px 1px 1px #EBEBEB; */
+    width: 40%;
+    text-align: left;
+    margin-left: 25rem;
+    margin-bottom: 30px;
+    color: #180039;
+}
+
+.ans{
+    color: #9194B0;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+section .info{
+    padding: 10px 20px;
+    background-color: #5368DF;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #5368DF;
+    position: relative;
+    left: 37rem;
+    margin-top: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+section .info:hover{
+    background-color: #ffff;
+    border: 2px solid #5368DF;
+    color: #5368DF;
+}
+
+#Subscribe{
+    background-color: #5368DF;
+    padding: 4rem 7rem;
+}
+
+section .num{
+    position: relative;
+    left: 27rem;
+    font-size: smaller;
+    letter-spacing: 3px;
+    color: #ffff;
+}
+
+section .stay{
+    position: relative;
+    left: 22rem;
+    margin: 2rem auto;
+    color: #ffff;
+    margin: 3rem auto;
+}
+
+section form{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 24.2rem;
+}
+
+section form button{
+    padding: 15px 20px;
+    background-color: #FA5757;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #FA5757;
+}
+
+section form button:hover{
+    background-color: #ffff;
+    border: 2px solid #FA5757;
+    color: #FA5757;
+}
+
+section form #email-subscribe{
+    padding: 15px 20px;
+    background-color: #ffff;
+    color: #9194B6;
+    border-radius: 5px;
+    border: 2px solid #ffff;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #252B46;
+    color: white;
+    padding: 2rem 7rem;
+}
+
+footer img{
+    filter: invert(2);
+}
+
+footer nav ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    position: relative;
+    right: 15rem;
+    list-style: none;
+    color: #ffff;
+}
+
+footer nav ul a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 400;
+}
+
+footer .icons a{
+    font-size: 1.7em;
+    color: white;
+}
+
+footer .icons a:hover{
+    color: #FA5757;
+}
+
+@media screen and (max-width:992px){
+    *{
+        max-width: 150%;
+    }
+  
+    header{
+        padding: 2rem 2rem;
+        margin-right: 8rem;
+        width: 100%;
+    }
+
+    #main{
+        padding: 4rem 2rem;
+        width: 100%;
+    }
+
+    .main-text{
+        position: relative;
+        bottom: 5.5rem;
+    }
+
+    .main-text h4{
+        width: 300%;
+        font-size: 1.8em;
+    }
+
+    .main-img{
+        margin-bottom: 12rem;
+        width: 50%;
+        position: relative;
+        left: 2rem;
+    }
+
+    .main-but1{
+        margin-bottom: 7px;
+    }
+
+    .main-but1,.main-but2{
+        padding: 10px 20px;
+    }
+
+    .tab-contents img{
+        width: 20em;
+    }
+
+    .tab-info{
+        position: relative;
+        top: 1rem;
+    }
+
+    .features{
+        margin-top: -130px;
+        padding: 2rem 2rem;
+    }
+
+    .features .p1{
+        margin-left: 12rem;
+        width: 50%;
+        margin-bottom: 5rem;
+    }
+    
+    .features .h22{
+        margin-left: 1.2rem;
+        width: 100%;
+    }
+
+    .tab-contents{
+        margin-left: -5.5rem;
+    }
+    
+    .tab-contents img{
+        width: 25em;
+    }
+
+    .tab-info{
+        margin-left: -1.5rem;
+        width: 60%;
+    }
+
+    .tab-info button{
+       margin-right: -18.5rem;
+    }
+
+    .extention-header p{
+        position: relative;
+        right: 8rem;
+    }
+
+    .extention-body{
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+
+    #Questions .header-p{
+        position: relative;
+        right: 8.5rem;
+    }
+
+    #Questions ul{
+        position: relative;
+        right: 12rem;
+    }
+
+    .faq{
+        font-size: larger;
+        display: wrap;
+
+    }
+
+    .arrows{
+        position: relative;
+        left: 7rem;
+    }
+
+    section .info{
+        margin-left: -13rem;
+    }
+
+    #Subscribe .sus{
+        position: relative;
+        right: 14rem;
+    }
+
+    footer{
+        padding: 2rem 3rem;
+        width: 110%;
+    }
+
+    footer nav ul{
+        position: relative;
+        left: -4rem;
+    }
+
+    #Subscribe{
+        width: 110%;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .togglers{
+        display: initial;
+    }
+
+    header {
+        padding: 2rem 10rem;
+        margin-right: 15rem;
+        width: 70%;
+    }
+    
+    .sub-header button{
+        display: none;
+    }
+
+    .sub-header ul{
+        position: fixed;
+        flex-direction: column;
+        background: #ffff;
+        width: 40%;
+        top: -32%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 1rem 0;
+        gap: 30px;
+        border-radius: 10px;
+        border: 1px solid grey;
+        transition: .7s;
+        z-index: 100;
+        justify-content: space-between;
+    }
+
+    .ri-menu-5-line:before,.ri-close-circle-line:before{
+        position: relative;
+        left: 20rem;
+    }
+
+    .header img{
+        position: relative;
+        right: 8rem;
+    }
+
+    #main{
+        padding: 5rem 18px;
+        width: 100%;
+    }
+
+    .main-img{
+        width: 50%;
+        position: relative;
+        left: 1rem;
+        top: -2rem;
+    }
+
+    .main-text h4{
+        width: 100%;
+    }
+
+    .features .p1{
+        text-align: center;
+        margin-left: 1rem;
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .tab-contents{
+        padding: 4rem 4rem;
+        width: 80%;
+    }
+
+    .tab-info{
+        right: 1rem;
+    }
+
+    .h22{
+        width: 60%;
+        font-size: 0.8em;
+        position: relative;
+        left: 15rem;
+    }
+
+    .tab-info p{
+        width: 100%;
+        right: 18.3rem;
+        font-size: 0.9em;
+    }
+
+    .features .h22{
+        position: relative;
+        left: 4.3rem;
+        white-space: nowrap;
+        font-size: 1.5em;
+    }
+
+    .tab-contents img{
+        width: 80%;
+        margin-right: 20px;
+    }
+
+    .tab-info button{
+        left: -20rem;
+        padding: 10px 15px;
+    }
+
+    .extention-header p{
+        margin-left: 19rem;
+    }
+
+    .extention-body{
+        margin-top: -3.5rem;
+    }
+
+    #Questions .header-p{
+        margin-left: 12.5rem;
+        width: 80%;
+    }
+
+    #Questions ul{
+        position: relative;
+        right: 21rem;
+    }
+
+    section .info{
+        margin-left: -19.5rem;
+    }
+
+    #Subscribe .sus{
+        right: 20rem;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer nav ul{
+        flex-direction: column;
+        margin: 4rem auto;
+        margin-left: 9rem;
+    }
+
+    .ri-twitter-line:before{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 576px){
+
+    *{
+        max-width: 300%;
+    }
+    
+
+    .header{
+        width: 100%;
+    }
+
+    .header img{
+        width: 300%;
+    }
+    
+    .ri-menu-5-line:before,.ri-close-circle-line:before{
+        position: relative;
+        left: 12rem;
+    }
+
+    #main{
+        flex-direction: column-reverse;
+        padding: 7rem 18px;
+    }
+
+    .main-img{
+        width: 100%;
+        margin-top: -3rem;
+        margin-bottom: 4rem;
+        margin-left: -2rem;
+    }
+
+    .main-text h4{
+        text-align: center;
+    }
+
+    .main-text p{
+        text-align: center;
+        margin-left: 3rem;
+        font-size: 1em;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+
+    .main-but1, .main-but2{
+        margin-left: 4rem;
+    }
+
+    .features{
+        margin-top: -150px;
+    }
+
+    .features .p1{
+        font-size: 1em;
+    }
+
+    .tab-contents{
+        flex-direction: column;
+    }
+
+    .tab-contents img{
+        width: 200%;
+        margin-left: 1.5rem;
+        margin-top: -2rem;
+    }
+
+    .tab-info{
+        margin-left: 3rem;
+    }
+
+    .tab-info p{
+        width: 300%;
+        text-align: center;
+        margin-left: 19rem;
+    }
+
+    .tab-info button{
+        left: -11rem;
+    }
+
+    .extention-header p{
+        font-size: 1em;
+        margin-left: 8rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    #Questions .header-p{
+        font-size: 1em;
+        margin-top: 1rem;
+        margin-left: 11.5rem;
+    }
+
+    #Questions ul{
+        width: 100%;
+        margin-left: -1rem;
+    }
+
+    .faq{
+        font-size: 1.1em;
+        white-space: nowrap;
+    }
+
+    .ans{
+        width: 220%;
+        font-size: 1em;
+    }
+
+    .arrows{
+        position: relative;
+        left: 0rem;
+    }
+
+    .faq-headers2 .arrows{
+        position: relative;
+        left: -7.5rem;
+    }
+
+    .faq-headers3 .arrows{
+        position: relative;
+        left: -1rem;
+    }
+
+    .faq-headers4 .arrows{
+        position: relative;
+        left: -9.7rem;
+    }
+
+    section .info{
+        margin-left: -24rem;
+    }
+
+    #Subscribe .sus{
+        position: relative;
+        left: -24rem;
+    }
+
+    section .stay{
+        white-space: nowrap;
+        margin-left: -3rem;
+    }
+
+    footer img{
+        margin-left: -3.5rem;
+    }
+
+    footer nav ul{
+        margin-left: 5.5rem;
+    }
+
+    .icons{
+        margin-left: -3rem;
+    }
+}
+
+@media screen and (max-width: 480px){
+
+    header{
+        width: 100%;
+    }
+
+    .ri-menu-5-line:before,.ri-close-circle-line:before{
+        position: relative;
+        left: 9rem;
+        width: 50%;
+    }
+
+    #main{
+        width: 120%;
+        margin-left: 1.5rem;
+    }
+
+    .main-text h4{
+        font-size: 2em;
+    }
+
+    .main-text p{
+        font-size: 1.2em;
+    }
+
+    .main-buttons{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main-but1,.main-but2{
+        white-space: nowrap;
+        font-size: 1em;
+    }
+
+    .features{
+        width: 130%;
+    }
+
+    .features .h21{
+        font-size: 2em;
+    }
+
+    .features .p1{
+        font-size: 1.2em;
+    }
+
+    .tab-contents img{
+        width: 220%;
+    }
+
+    .features .h22{
+        font-size: 2em;
+        margin-left: -1.5rem;
+    }
+
+    .tab-info p{
+        font-size: 1.2em;
+    }
+
+    .tab-info button{
+        width: 100%;
+        font-size: 1.1em;
+        margin-right: -21rem;
+    }
+
+    #extention{
+        width: 135%;
+    }
+
+    .extention-header h2{
+        font-size: 2em;
+    }
+
+    .extention-header p{
+        font-size: 1.2em;
+    }
+
+    .extention-body{
+        width:100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
