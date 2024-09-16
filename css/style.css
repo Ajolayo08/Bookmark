@@ -6,8 +6,12 @@
     font-family: 'Rubik';
 }
 
+a{
+    text-decoration: none;
+}
+
 html,body{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 button{
@@ -297,32 +301,52 @@ header{
 
 #Questions ul{
     list-style: none;
+    width: 500px;
+    margin: 1rem auto;
 }
 
 hr{
-    width: 33.5em;
-    position: relative;
-    left: 25rem;
     margin-bottom: 2rem;
 }
 
-.faq{
-    font-size: 0.9em;
+.faq-question{
+    font-size: 1.2em;
     text-align: left;
     margin-bottom: 20px;
     width: 80%;
 }
 
-.faq-headers1,.faq-headers2,.faq-headers3,.faq-headers4{
+.ri-arrow-down-s-line{
+    font-size: 1.7em;
+}
+
+.ans{
+    display: none;
+}
+
+.show .ans{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.img-rotate .ri-arrow-down-s-line{
+    transform: rotateZ(-180deg);
+    transition: .5s;
+}
+
+.faq{
+    cursor: pointer;
+}
+
+.faq-headers{
     display: flex;
-    gap: 16rem;
+    justify-content: space-between;
 }
 
 .bookmark,.browser,.mobile-app,.chromium-browsers{
     /* box-shadow: 2px 2px 1px 1px #EBEBEB; */
     width: 40%;
     text-align: left;
-    margin-left: 25rem;
     margin-bottom: 30px;
     color: #180039;
 }
@@ -550,10 +574,6 @@ footer .icons a:hover{
 
     }
 
-    .arrows{
-        position: relative;
-        left: 7rem;
-    }
 
     section .info{
         margin-left: -13rem;

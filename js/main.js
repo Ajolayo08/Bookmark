@@ -16,10 +16,11 @@ menuClose.addEventListener("click", function(){
     menuOpen.style.display = "block"
 })
 
-// menuLinks.forEach(function(link){
-//     link.addEventListener("click", function(){
-//         menu.style.top = "-32%"
-//         menuClose.style.display = "none"
-//         menuOpen.style.display = "block"
-//     })  
-// })
+const faqs = document.querySelectorAll(".faq")
+faqs.forEach(faq=>{
+    faq.addEventListener("click", function(){
+        faq.classList.toggle("show")
+        faq.classList.toggle("img-rotate")
+    })
+})
+
